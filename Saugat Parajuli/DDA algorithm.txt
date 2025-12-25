@@ -1,0 +1,24 @@
+Start
+Input the starting point (x1,y1)(x1​,y1​) and ending point (x2,y2)(x2​,y2​)
+Calculate
+
+dx=x2−x1dx=x2​−x1​
+dy=y2−y1dy=y2​−y1​
+Find the number of steps
+
+steps = max(|dx|, |dy|)
+Calculate the increment values
+
+xinc=dxstepsxinc​=stepsdx​
+yinc=dystepsyinc​=stepsdy​
+Set the initial point
+
+x=x1x=x1​
+y=y1y=y1​
+Plot the initial point (round(x),round(y))(round(x),round(y))
+Repeat for steps times
+
+x=x+xincx=x+xinc​
+y=y+yincy=y+yinc​
+Plot (round(x),round(y))(round(x),round(y))
+Stop
