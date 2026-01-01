@@ -1,0 +1,24 @@
+DDA Algorithm:
+
+Step 1: Input the starting and ending coordinates of the line (x1,y1) and (x2,y2)
+
+Step 2: Calculate the differences
+	Δx = x2 - x1
+	Δy = y2 - y1
+
+Step 3: Determine the number of steps
+	Steps = max(|Δx|, |Δy|)
+
+Step 4: Calculate the increments
+	Xinc=Δx/steps
+	Yinc=Δy/steps
+
+Step 5: Initialize the starting point: x=x1, y=y1
+
+Step 6: Iterate through the number of steps 
+	a) plot the points (round(x1),round(y1))
+	b) x=x+Xinc
+	   y=y+Yinc
+
+Step 7: End
+

@@ -1,0 +1,39 @@
+Algorithm
+
+Step1: Start
+
+Step2: Declare Variables (x1,y1), (x2,y2), labelx, labely, delx, dely, p, x, y
+
+Step3: calculate
+        Δx = |x2 - x1| and Δy = |y2 - y1|
+
+Step4: If x2 > x1, assign labelx = 1 and else assign labelx = -1
+
+Step5: If y2 > y1, assign labely = 1, else assign labely = -1
+
+Step6: plot (x1, y1)
+
+Step7: If Δx > Δy (|m|<1) calculate:
+        P0 = 2Δy - Δx
+        Starting at k = 0 to Δx, repeat
+        If Pk < 0:
+                xk+1 = xk + labelx
+                yk+1 = yk
+                Pk+1 = Pk + 2Δy
+        Else,
+                xk+1 = xk + labelx
+                yk+1 = yk + labely
+                Pk+1 = Pk + 2Δy - 2Δx
+Else:
+        P0 = 2Δx - Δy
+        Starting at k = 0 to Δy, repeat
+        If Pk < 0:
+                xk+1 = xk
+                yk+1 = yk + labely
+                Pk+1 = Pk + 2Δx
+        Else:
+                xk+1 = xk + labelx
+                yk+1 = yk + labely
+                Pk+1 = Pk + 2Δx - 2Δy
+        plot (xk+1, yk+1)
+Step8: END
