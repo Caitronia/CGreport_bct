@@ -1,0 +1,28 @@
+Algorithm Steps
+
+1. Read the coordinates (x1,y1)and (x2,y2).
+2. Compute
+
+dx=x2−x1, dy=y2−y1
+
+3. Initialize the decision parameter
+
+p=2dy−dx
+
+4. Set initial point (x,y)=(x1,y1).
+
+5. Plot the point (x,y).
+
+6.Repeat until x=x2:
+
+6. If p<0:
+
+x=x+1
+p=p+2dy
+Else:
+
+x=x+1
+y=y+1
+p=p+2(dy−dx)
+Plot the new point (x,y).
+7. Stop.
