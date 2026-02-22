@@ -1,0 +1,22 @@
+{
+  "difficulty": "MEDIUM",
+  "sound": true,
+  "volume": 0.65,
+  "fullscreen": false,
+  "quality": "HIGH",
+  "theme": "NEON",
+  "powerups": true,
+  "match_pts": 7,
+  "win_by_2": true,
+  "show_fps": false,
+  "shake": true,
+  "crt": false,
+  "ball_type": "NORMAL",
+  "combo": true,
+  "arcade_score": true,
+  "training_speed": 1.0,
+  "p1_up": 119,
+  "p1_dn": 115,
+  "p2_up": 1073741906,
+  "p2_dn": 1073741905
+}
